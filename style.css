@@ -96,7 +96,7 @@ textarea {
     margin: 0.4rem 1.5rem;
 }
 .footer{
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     height: 6vh;
     padding: 1rem;
     padding-bottom: 1.5rem;
@@ -104,10 +104,14 @@ textarea {
 }
 .footer-content{
     margin: 1rem;
+
 }
 .footer-link{
-    color: var(--primary-light);
+    color: var(--secondary-color);
 }
 .footer-link:hover{
     color: var(--secondary-light);
+}
+.link{
+    text-decoration: none;
 }
